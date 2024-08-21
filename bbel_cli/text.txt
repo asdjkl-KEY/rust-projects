@@ -1,0 +1,37 @@
+my_discord_bot/
+│
+├── src/
+│   ├── commands/
+│   │   ├── general/
+│   │   │   ├── ping.rs
+│   │   │   └── hello.rs
+│   │   ├── admin/
+│   │   │   ├── ban.rs
+│   │   │   └── kick.rs
+│   │   └── utils.rs
+│   ├── events/
+│   │   ├── message.rs
+│   │   ├── ready.rs
+│   │   └── interaction.rs
+│   ├── handlers/
+│   │   ├── command_handler.rs
+│   │   └── event_handler.rs
+│   ├── utils/
+│   │   ├── logger.rs
+│   │   └── config.rs
+│   ├── main.rs
+│   └── bot.rs
+│
+├── config/
+│   ├── config.yml
+│   └── commands.yml
+│
+├── logs/
+│   └── bot.log
+│
+├── tests/
+│   └── command_tests.rs
+│
+├── .env
+├── Cargo.toml
+└── README.md
