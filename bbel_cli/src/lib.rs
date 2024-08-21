@@ -1,2 +1,4 @@
 pub mod mkdir;
-pub mod trees;
+pub mod structures;
+pub mod commands;
+pub mod autotasks;
