@@ -1,10 +1,10 @@
-use sprite_extractor::{
-    spritesheet::process_sprites,
-    menu_handler::menu,
-};
-use std::io;
+use sprite_extractor::menu_handler::menu;
 
 fn main() {
-    print!("Hello world!");
-    let _ = menu();
+    let options = [
+        String::from("0 - Salir"),
+        String::from("1 - Cortar automaticamente los sprites")
+    ];
+    print!("Hola mundo");
+    menu(options);
 }
